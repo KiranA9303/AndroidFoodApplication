@@ -52,4 +52,12 @@
         android:text="RESET PASSWORD"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="429dp" />
+
+    <FrameLayout
+        android:layout_width="329dp"
+        android:layout_height="470dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="56dp">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
