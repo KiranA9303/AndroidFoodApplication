@@ -30,18 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*addListenerOnLoginButton();
-        EditText txtname1 = findViewById(R.id.username);
-        String username      =  txtname1.getText().toString();
-        EditText txtname2 = findViewById(R.id.username);
-        String password      =  txtname2.getText().toString();
-        Button loginButton = (Button)findViewById(R.id.loginButton);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-            }
-        });*/
-
+        addListenerOnLoginButton();
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -84,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String value1=username.getText().toString();
                 String value2=password.getText().toString();
-                Toast.makeText(getApplicationContext(),String.valueOf( username +","+password), Toast.LENGTH_LONG).show();
+
             }
         });
     }
