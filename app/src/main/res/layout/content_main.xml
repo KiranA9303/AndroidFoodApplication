@@ -17,28 +17,27 @@
         tools:layout_editor_absoluteY="92dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/username"
         android:layout_width="280dp"
         android:layout_height="64dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Enter Username"
-        android:text=""
+        android:inputType="text"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="137dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/password"
         android:layout_width="275dp"
         android:layout_height="53dp"
         android:ems="10"
-        android:inputType=""
         android:hint="Enter Password"
+        android:inputType="textPassword"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="223dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginButton"
         android:layout_width="275dp"
         android:layout_height="46dp"
         android:text="LOGIN"
@@ -46,7 +45,7 @@
         tools:layout_editor_absoluteY="336dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/resetButton"
         android:layout_width="277dp"
         android:layout_height="48dp"
         android:text="RESET PASSWORD"
@@ -55,7 +54,7 @@
 
     <FrameLayout
         android:layout_width="329dp"
-        android:layout_height="470dp"
+        android:layout_height="472dp"
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="56dp">
 

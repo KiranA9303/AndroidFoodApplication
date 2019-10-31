@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">FoodApplication</string>
     <string name="action_settings">Settings</string>
+    <string name="username">pramodh</string>
+    <string name="password">pramodh123</string>
+
 </resources>
