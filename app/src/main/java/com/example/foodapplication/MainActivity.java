@@ -1,6 +1,7 @@
 package com.example.foodapplication;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -71,8 +72,17 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String value1=username.getText().toString();
-                String value2=password.getText().toString();
+
+                if(username.getText().toString().equals("pramod") & password.getText().toString().equals("pramod123")){
+                    Toast.makeText(getApplicationContext(),String.valueOf( username.getText().toString() +","+ password.getText().toString()), Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(MainActivity.this,UserActivity.class);
+                    intent.putExtra("userText", username.getText().toString());
+                    startActivity(intent);
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Username and password is NOT correct",
+                            Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
