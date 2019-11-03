@@ -52,7 +52,7 @@ public class UserActivity extends AppCompatActivity {
         histroy_logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Redirecting to History Page...", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Redirecting to History Page...", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(UserActivity.this,HistoryActivity.class);
                 intent.putExtra("userText", userLabel);
                 startActivity(intent);
@@ -62,7 +62,7 @@ public class UserActivity extends AppCompatActivity {
         food_logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Redirecting to Food Page...", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Redirecting to Food Page...", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(UserActivity.this,FoodsPage.class);
                 intent.putExtra("userText", userLabel);
                 startActivity(intent);

@@ -2,6 +2,6 @@
 <resources>
     <color name="frameColor">#7094db</color>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#07332D</color>
     <color name="colorAccent">#D81B60</color>
 </resources>

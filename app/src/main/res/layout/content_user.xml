@@ -38,16 +38,17 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232"
+        app:layout_constraintVertical_bias="0.855"
         app:srcCompat="@drawable/history_logo"
         tools:srcCompat="@drawable/history_logo" />
 
     <ImageView
         android:id="@+id/food_logo"
-        android:layout_width="202dp"
-        android:layout_height="165dp"
+        android:layout_width="224dp"
+        android:layout_height="221dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -56,10 +57,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823"
+        app:layout_constraintVertical_bias="0.242"
         app:srcCompat="@drawable/food_logo"
         tools:srcCompat="@drawable/food_logo" />
 

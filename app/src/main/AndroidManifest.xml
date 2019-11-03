@@ -4,10 +4,12 @@
     package="com.example.foodapplication">
 
     <dist:module dist:instant="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
-        android:name="com.example.foodapplication.GlobalApplication"
+        android:name=".GlobalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Food Application"
@@ -15,9 +17,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ResponseTable"
+            android:label="@string/title_activity_responsetable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".FoodsPage"
             android:label="@string/title_activity_foods_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HistoryActivity"
             android:label="User History"

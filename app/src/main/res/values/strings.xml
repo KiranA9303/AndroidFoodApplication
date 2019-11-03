@@ -3,8 +3,10 @@
     <string name="action_settings">Settings</string>
     <string name="username">pramodh</string>
     <string name="password">pramodh123</string>
+
     <string name="title_activity_user">UserActivity</string>
     <string name="title_activity_history">History Details</string>
     <string name="title_activity_foods_page">Food Page</string>
-
+    <string name="title_activity_responsetable">Calories Page</string>
+    <string name="title_activity_history_page">User History</string>
 </resources>
